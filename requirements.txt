@@ -21,18 +21,18 @@ marshmallow==3.20.1
 razorpay==1.4.2
 
 # PaddleOCR dependencies for medication processing
-paddlepaddle==2.5.2
-paddleocr==2.7.0.3
+#paddlepaddle==2.5.2
+#paddleocr==2.7.0.3
 # Note: PaddleOCR temporarily commented out due to PyMuPDF build issues on Windows
 # If needed, install manually: pip install paddleocr --no-deps
-pymupdf>=1.23.0  # Pre-built wheels available
+#pymupdf>=1.23.0  # Pre-built wheels available
 
 # Pregnancy RAG Features (Enhanced Trimester Integration)
-fastapi==0.104.1
-pydantic==2.5.0
-httpx==0.25.2
-qdrant-client==1.15.1
-sentence-transformers==2.2.2  # Required for RAG semantic search
+#fastapi==0.104.1
+#pydantic==2.5.0
+#httpx==0.25.2
+#qdrant-client==1.15.1
+#sentence-transformers==2.2.2  # Required for RAG semantic search
 
 # Note: Heavy dependencies removed to fit 512MB limit
 # - PyMuPDF (Python 3.13 incompatible)
